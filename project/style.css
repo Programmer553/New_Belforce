@@ -194,7 +194,7 @@ a { text-decoration: none; color: inherit; }
 }
 @media (max-width: 600px) {
     .phones-trio {
-        padding-bottom: 56px;
+        padding-bottom: 40px;
     }
 }
 
