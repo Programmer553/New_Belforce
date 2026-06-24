@@ -184,13 +184,18 @@ a { text-decoration: none; color: inherit; }
 }
 
 .phones-trio {
-  position: relative;
-  display: flex;
-  align-items: flex-end;
-  justify-content: center;
-  gap: 0;
-  height: 380px;
-  padding-bottom: 96px;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 0;
+    height: 380px;
+    padding-bottom: 96px; 
+}
+@media (max-width: 600px) {
+    .phones-trio {
+        padding-bottom: 56px;
+    }
 }
 
 .phone-card {
